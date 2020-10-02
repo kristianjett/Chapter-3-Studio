@@ -11,12 +11,12 @@ namespace Chapter_3
         {
             Dictionary<char, int> dict = new Dictionary<char, int>();
 
-            foreach(char c in input)
+            foreach (char c in input)
             {
-                if(char.IsLetter(c))
+                if (char.IsLetter(c))
                 {
                     char upperCase = char.ToUpper(c);
-                    if (!(dict.ContainsKey(upperCase)))
+                    if (!dict.ContainsKey(upperCase))
                     {
                         dict[upperCase] = 0;
                     }

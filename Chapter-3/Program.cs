@@ -18,7 +18,7 @@ namespace Chapter_3
                 Console.WriteLine($"{kvp.Key} : {kvp.Value}");
             }
 
-            countFromInput.Select(i => $"{i.Key} : {i.Value}").ToList().ForEach(Console.WriteLine);
+            //countFromInput.Select(i => $"{i.Key} : {i.Value}").ToList().ForEach(Console.WriteLine);
         
         }
     }
